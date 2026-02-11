@@ -1,1 +1,10 @@
-TIPO | Justificación corta
+Ejercicio 2: Sistema de caché distribuido (IDs únicos)
+Decisión: Clave–Valor
+
+Justificación:
+
+El foco es el acceso directo y rápido a un valor conocido mediante un identificador único (clave).
+
+Para sistemas de caché, se busca una latencia extremadamente baja y una estructura simple sin relaciones entre entidades.
+
+Este tipo de base de datos permite un acceso $O(1)$ por clave, lo cual es la forma más eficiente de recuperación de datos por ID.
