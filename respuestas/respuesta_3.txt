@@ -1,1 +1,5 @@
-TIPO | Justificación corta
+Columnar | El sistema requiere analizar transacciones históricas para detectar tendencias, lo que implica trabajar con patrones globales en grandes conjuntos de datos.
+
+El análisis semántico apunta a consultas por rangos y agregaciones (resúmenes por fecha o tipo), donde se prioriza la velocidad de lectura sobre las actualizaciones individuales.
+
+Las bases columnares optimizan lecturas por columnas específicas (como montos o fechas) y reducen el I/O en este tipo de consultas analíticas masivas.
