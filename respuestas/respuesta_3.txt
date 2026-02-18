@@ -1,9 +1,4 @@
-Ejercicio 3: Plataforma financiera (Análisis temporal y tendencias)
-Decisión: Columnar
-
-Justificación:
-
-El sistema requiere analizar transacciones históricas para detectar tendencias, lo que implica trabajar con patrones globales en grandes conjuntos de datos.
+Columnar | El sistema requiere analizar transacciones históricas para detectar tendencias, lo que implica trabajar con patrones globales en grandes conjuntos de datos.
 
 El análisis semántico apunta a consultas por rangos y agregaciones (resúmenes por fecha o tipo), donde se prioriza la velocidad de lectura sobre las actualizaciones individuales.
 

@@ -1,10 +1,2 @@
-Ejercicio 1: Aplicación social (Comunidades y Grados de Separación)
-Decisión: Grafos
-
-Justificación:
-
-El enunciado menciona explícitamente el análisis de comunidades y grados de separación, lo cual requiere identificar caminos indirectos y relaciones de segundo o tercer nivel.
-
-Este modelo es ideal porque las relaciones existen como objetos explícitos (ciudadanos de primera clase) con tipo y dirección, optimizando los recorridos profundos.
-
+ Grafos | El enunciado menciona explícitamente el análisis de comunidades y grados de separación, lo cual requiere identificar caminos indirectos y relaciones de segundo o tercer nivel. Este modelo es ideal porque las relaciones existen como objetos explícitos (ciudadanos de primera clase) con tipo y dirección, optimizando los recorridos profundos.
 Permite representar naturalmente redes y dependencias que en otros modelos (como SQL) serían costosas de consultar.
